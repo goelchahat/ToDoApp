@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:id="@+id/tv"
+        android:textSize="20sp"
+        android:textColor="#000080"
+        />
+
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/cb"
+        android:layout_marginTop="1dp"/>
+
+        <ImageButton
+            android:id="@+id/imaged"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:scaleType="fitStart"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="#FFFFFF"
+
+
+            android:src="@drawable/dustbin" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

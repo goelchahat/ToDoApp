@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chahatgoel.todoapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter your task here!"
+
+        android:id="@+id/et"
+
+
+        />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:src="@drawable/add"
+        android:scaleType="fitStart"
+
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/bAdd"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="13dp"/>
+
+    </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/taskList"
+            android:layout_marginTop="70dp">
+
+        </ListView>
+
+
+
+
+</FrameLayout>
